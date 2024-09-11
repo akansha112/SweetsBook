@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center">
+
+    <ImageView
+       android:background="#00000000"
+        android:id="@+id/titleImage"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="400dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/sooji"
+        android:contentDescription="@string/todo1" />
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:text="@string/hello"
+        android:textStyle="bold"
+        android:fontFamily="@font/noto_serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textColor="#D25380"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:id="@+id/textdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/noto_serif"
+        android:text="@string/hi"
+        android:textAlignment="center"
+        android:textColor="#808080"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

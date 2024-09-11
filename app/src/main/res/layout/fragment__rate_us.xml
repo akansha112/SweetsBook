@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/pink"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/round_food_bank_24"
+        android:contentDescription="@string/icon" />
+    <LinearLayout
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_us"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_our_sweet_recipe_app_where_every_dessert_lover_s_dream_comes_to_life_indulge_in_a_world_of_delectable_sweets_where_you_can_explore_and_create_mouth_watering_recipes_with_ease_our_app_features_user_friendly_navigation_that_makes_it_easy_for_you_to_browse_through_recipes"
+        android:textColor="@color/black"
+        android:fontFamily="@font/noto_serif"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:padding="5dp"
+        tools:ignore="VisualLintLongText" />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOkay"
+        android:textColor="@color/black"
+        android:text="@string/ok"
+        android:textSize="16sp"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>

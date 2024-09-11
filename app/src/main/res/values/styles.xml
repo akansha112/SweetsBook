@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:colorAccent">@android:color/black</item>
+    </style>
+
+    <!-- Define the background drawable for the RatingBar -->
+    <drawable name="custom_rating_bar_background">
+        <item name="android:shadowColor">#BB000000</item>
+        <item name="android:shadowRadius">3</item>
+    </drawable>
+
+    <style name="CustomRatingBarStyle" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_rating_bar_background</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="CustomSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Background color -->
+        <item name="android:background">#FFFFFF</item>
+
+        <!-- Search icon color -->
+
+        <item name="android:tint">#000000</item>
+
+        <!-- Close icon color -->
+
+
+        <!-- Hint text color -->
+        <item name="android:textColorHint">#AAAAAA</item>
+
+        <!-- Search text color -->
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+
+
+</resources>

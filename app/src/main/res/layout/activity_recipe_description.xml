@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:orientation="vertical"
+    tools:context=".RecipeDescriptionActivity">
+            <ImageView
+            android:id="@+id/ivImage"
+                android:src="@drawable/kaju_katli"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+                android:contentDescription="@string/recipeimage" />
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="10dp">
+
+
+             <LinearLayout
+                 android:background="@color/pink"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 >
+        <TextView
+            android:fontFamily="@font/noto_serif"
+            android:text="@string/recipe"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:id="@+id/foodname"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            />
+
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:id="@+id/layoutIngredients">
+        <TextView
+
+            android:text="@string/ingredients2"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtIngredients"
+            android:layout_margin="8dp"
+            android:textSize="15sp"/>
+</LinearLayout>
+        <TextView
+            android:text="@string/preperation"
+            android:textColor="@color/black"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="16sp"/>
+        <TextView
+            android:textColor="@color/black"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preperation2"
+            android:id="@+id/txtdescription"
+            android:layout_margin="8dp"
+            android:textSize="16sp"/>
+             </LinearLayout>
+
+
+
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

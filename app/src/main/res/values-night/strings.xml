@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_to_our_sweet_recipe_app_where_every_dessert_lover_s_dream_comes_to_life_indulge_in_a_world_of_delectable_sweets_where_you_can_explore_and_create_mouth_watering_recipes_with_ease_our_app_features_user_friendly_navigation_that_makes_it_easy_for_you_to_browse_through_recipes">Welcome to our sweet recipe app, where every dessert lover\'s dream comes to life! Indulge in a world of delectable sweets, where you can explore and create mouth-watering recipes with ease.Our app features user-friendly navigation that makes it easy for you to browse through recipes.</string>
+    <string name="icon">icon</string>
+    <string name="about_us">About Us</string>
+    <string name="ok">Ok</string>
+    <string name="skip">Skip</string>
+    <string name="viewpageradapter">ViewPagerAdapter</string>
+</resources>
